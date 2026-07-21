@@ -88,7 +88,7 @@ const AboutMe = ()=>{
                             className: "md:col-span-5",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-5xl slide-up-and-fade",
-                                children: "O meu nome é Damásio."
+                                children: "O meu nome é Damásio Caliqui."
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/AboutMe.tsx",
                                 lineNumber: 68,
@@ -517,7 +517,7 @@ const Banner = ()=>{
                                     ' ',
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-medium text-foreground",
-                                        children: "Damásio"
+                                        children: "Damásio Caliqui"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 49,
@@ -1529,7 +1529,7 @@ const ProjectList = ()=>{
                                     alt: `${project.title} - Projeto de Damásio Caliqui`,
                                     width: "400",
                                     height: "500",
-                                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('absolute inset-0 transition-all duration-500 w-full h-full object-cover', {
+                                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('absolute inset-0 transition-all duration-500 w-full h-full object-cover filter brightness-75', {
                                         'opacity-0': project.slug !== selectedProject
                                     }),
                                     ref: imageRef

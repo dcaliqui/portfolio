@@ -6,15 +6,15 @@ export const GENERAL_INFO = {
     phone2: '+244 952 160 514',
 
     emailSubject: 'Proposta de Colaboração Profissional',
-    emailBody: 'Caro Damásio, contacto-o com o intuito de...',
+    emailBody: 'Caro Damásio Caliqui, contacto-o com o intuito de...',
 
     oldPortfolio: '',
     upworkProfile: '',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com' },
-    { name: 'linkedin', url: 'https://www.linkedin.com' },
+    { name: 'github', url: 'https://github.com/dcaliqui' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/dam%C3%A1sio-caliqui-0b570631a/' },
 ];
 
 export const MY_STACK = {
@@ -172,7 +172,7 @@ export const PROJECTS: IProject[] = [
         images: ['/projects/images/netPractice.png'],
         },
         {
-                title: 'Concurso Mirantes - Codespace',
+                title: 'Concurso Mirantes',
                 slug: 'concurso-mirantes-codespace',
                 year: 2025,
                 description: `Participei no concurso da Mirantes com o grupo Codespace. O projeto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.

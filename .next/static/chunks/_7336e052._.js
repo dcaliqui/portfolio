@@ -175,18 +175,18 @@ const GENERAL_INFO = {
     phone: '+244 944 026 729',
     phone2: '+244 952 160 514',
     emailSubject: 'Proposta de Colaboração Profissional',
-    emailBody: 'Caro Damásio, contacto-o com o intuito de...',
+    emailBody: 'Caro Damásio Caliqui, contacto-o com o intuito de...',
     oldPortfolio: '',
     upworkProfile: ''
 };
 const SOCIAL_LINKS = [
     {
         name: 'github',
-        url: 'https://github.com'
+        url: 'https://github.com/dcaliqui'
     },
     {
         name: 'linkedin',
-        url: 'https://www.linkedin.com'
+        url: 'https://www.linkedin.com/in/dam%C3%A1sio-caliqui-0b570631a/'
     }
 ];
 const MY_STACK = {
@@ -380,7 +380,7 @@ const PROJECTS = [
         ]
     },
     {
-        title: 'Concurso Mirantes - Codespace',
+        title: 'Concurso Mirantes',
         slug: 'concurso-mirantes-codespace',
         year: 2025,
         description: `Participei no concurso da Mirantes com o grupo Codespace. O projeto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.

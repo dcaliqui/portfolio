@@ -47,7 +47,7 @@ const Banner = () => {
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         O meu nome é{' '}
                         <span className="font-medium text-foreground">
-                            Damásio
+                            Damásio Caliqui
                         </span>
                         . Sou estudante na Escola 42 Luanda e exerço a atividade de programador web e
                         de software, encontrando-me apto a desenvolver soluções impactantes e escaláveis.
