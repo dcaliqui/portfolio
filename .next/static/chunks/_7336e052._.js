@@ -351,6 +351,31 @@ const PROJECTS = [
         images: [
             '/projects/images/minishell.png'
         ]
+    },
+    {
+        title: 'NetPractice',
+        slug: 'netpractice',
+        year: 2024,
+        description: `Projeto da Escola 42 focado no aprendizado de redes TCP/IP. O projeto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
+      <br/> <br/>
+      <ul>
+        <li>Configuração e análise de redes TCP/IP</li>
+        <li>Compreensão de endereços IP e máscaras de rede</li>
+        <li>Implementação de routing e switches</li>
+        <li>Resolução de problemas de conectividade de rede</li>
+        <li>Domínio de conceitos fundamentais de redes</li>
+      </ul>`,
+        role: `Estudante de Redes (Projeto Escola 42).`,
+        techStack: [
+            'Networking',
+            'TCP/IP',
+            'Routing'
+        ],
+        thumbnail: '/projects/images/netPractice.png',
+        longThumbnail: '/projects/images/netPractice.png',
+        images: [
+            '/projects/images/netPractice.png'
+        ]
     }
 ];
 const MY_EXPERIENCE = [
