@@ -132,6 +132,24 @@ export const PROJECTS: IProject[] = [
                 longThumbnail: '/projects/images/inception.png',
                 images: ['/projects/images/inception.png'],
     },
+    {
+        title: 'Minishell',
+        slug: 'minishell',
+        year: 2024,
+        description: `O Minishell é um projeto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projeto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
+      <br/> <br/>
+      <ul>
+        <li>Implementação de um interpretador de comandos (shell) em C</li>
+        <li>Gestão avançada de processos e de sinais (signals)</li>
+        <li>Implementação de redirecionamentos (>, <, >>, <<) e pipes (|)</li>
+        <li>Gestão de variáveis de ambiente e comandos internos (built-ins)</li>
+      </ul>`,
+        role: `Desenvolvedor C (Projeto Escola 42).`,
+        techStack: ['C', 'Shell', 'Unix/Linux'],
+        thumbnail: '/projects/images/minishell.png',
+        longThumbnail: '/projects/images/minishell.png',
+        images: ['/projects/images/minishell.png'],
+    },
 ];
 
 export const MY_EXPERIENCE = [
