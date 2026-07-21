@@ -114,18 +114,18 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
                     width="300"
                     height="200"
                     className={cn(
-                        'w-full object-cover mb-6 aspect-[3/2] object-top',
+                        'w-full object-cover mb-6 aspect-[3/2] object-top rounded-md',
                     )}
                     key={project.slug}
                     loading="lazy"
                 />
             )}
-            <div className="flex gap-2 md:gap-5">
-                <div className="font-anton text-muted-foreground">
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-5">
+                <div className="font-anton text-muted-foreground text-sm sm:text-base">
                     _{(index + 1).toString().padStart(2, '0')}.
                 </div>
-                <div className="">
-                    <h4 className="text-4xl xs:text-6xl flex gap-4 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left">
+                <div className="min-w-0">
+                    <h4 className="text-3xl sm:text-4xl md:text-6xl flex flex-wrap items-center gap-3 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left">
                         {project.title}
                         <span className="text-foreground opacity-0 group-hover:opacity-100 transition-all">
                             <svg
@@ -149,14 +149,11 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
                             </svg>
                         </span>
                     </h4>
-                    <div className="mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs">
+                    <div className="mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs sm:text-sm">
                         {project.techStack
                             .slice(0, 3)
                             .map((tech, idx, stackArr) => (
-                                <div
-                                    className="gap-3 flex items-center"
-                                    key={tech}
-                                >
+                                <div className="gap-3 flex items-center" key={tech}>
                                     <span className="">{tech}</span>
                                     {idx !== stackArr.length - 1 && (
                                         <span className="inline-block size-2 rounded-full bg-background-light"></span>

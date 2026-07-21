@@ -7,17 +7,30 @@ interface RepoStats {
 }
 
 const Footer = async () => {
-    const repoStats = await fetch(
-        'https://api.github.com/repos/dcaliqui/portfolio-2.0',
-        {
-            next: {
-                revalidate: 60 * 60, // 1 hour
-            },
-        },
-    );
+    let stargazers_count = 0;
+    let forks_count = 0;
 
-    const { stargazers_count, forks_count } =
-        (await repoStats.json()) as RepoStats;
+    try {
+        const repoStats = await fetch(
+            'https://api.github.com/repos/dcaliqui/portfolio-2.0',
+            {
+                headers: {
+                    Accept: 'application/vnd.github+json',
+                },
+                next: {
+                    revalidate: 60 * 60, // 1 hour
+                },
+            },
+        );
+
+        if (repoStats.ok) {
+            const data = (await repoStats.json()) as RepoStats;
+            stargazers_count = data.stargazers_count ?? 0;
+            forks_count = data.forks_count ?? 0;
+        }
+    } catch (error) {
+        console.error('Failed to fetch GitHub repository stats:', error);
+    }
 
     return (
         <footer className="text-center pb-5" id="contact">

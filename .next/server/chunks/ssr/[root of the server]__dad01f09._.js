@@ -340,12 +340,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 const Footer = async ()=>{
-    const repoStats = await fetch('https://api.github.com/repos/dcaliqui/portfolio-2.0', {
-        next: {
-            revalidate: 60 * 60
+    let stargazers_count = 0;
+    let forks_count = 0;
+    try {
+        const repoStats = await fetch('https://api.github.com/repos/dcaliqui/portfolio-2.0', {
+            headers: {
+                Accept: 'application/vnd.github+json'
+            },
+            next: {
+                revalidate: 60 * 60
+            }
+        });
+        if (repoStats.ok) {
+            const data = await repoStats.json();
+            stargazers_count = data.stargazers_count ?? 0;
+            forks_count = data.forks_count ?? 0;
         }
-    });
-    const { stargazers_count, forks_count } = await repoStats.json();
+    } catch (error) {
+        console.error('Failed to fetch GitHub repository stats:', error);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "text-center pb-5",
         id: "contact",
@@ -357,7 +370,7 @@ const Footer = async ()=>{
                     children: "Have a project in mind?"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.tsx",
-                    lineNumber: 25,
+                    lineNumber: 38,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -366,7 +379,7 @@ const Footer = async ()=>{
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GENERAL_INFO"].email
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.tsx",
-                    lineNumber: 26,
+                    lineNumber: 39,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -387,7 +400,7 @@ const Footer = async ()=>{
                                                 size: 18
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 55,
                                                 columnNumber: 33
                                             }, this),
                                             " ",
@@ -395,7 +408,7 @@ const Footer = async ()=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 54,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -405,7 +418,7 @@ const Footer = async ()=>{
                                                 size: 18
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.tsx",
-                                                lineNumber: 45,
+                                                lineNumber: 58,
                                                 columnNumber: 33
                                             }, this),
                                             " ",
@@ -413,35 +426,35 @@ const Footer = async ()=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 57,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.tsx",
-                                lineNumber: 40,
+                                lineNumber: 53,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.tsx",
-                        lineNumber: 34,
+                        lineNumber: 47,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.tsx",
-                    lineNumber: 33,
+                    lineNumber: 46,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer.tsx",
-            lineNumber: 24,
+            lineNumber: 37,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Footer.tsx",
-        lineNumber: 23,
+        lineNumber: 36,
         columnNumber: 9
     }, this);
 };

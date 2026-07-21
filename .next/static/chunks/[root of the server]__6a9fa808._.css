@@ -1052,6 +1052,10 @@ body {
   margin-top: .25rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -1159,6 +1163,10 @@ body {
   min-height: 100vh;
 }
 
+.min-h-\[100svh\] {
+  min-height: 100svh;
+}
+
 .w-1\.5 {
   width: .375rem;
 }
@@ -1189,6 +1197,10 @@ body {
 
 .min-w-9 {
   min-width: 2.25rem;
+}
+
+.min-w-0 {
+  min-width: 0;
 }
 
 .max-w-7xl {
@@ -1300,6 +1312,10 @@ body {
   animation: 1s linear infinite spin;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1356,6 +1372,14 @@ body {
   gap: 1.5rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-x-11 {
   column-gap: 2.75rem;
 }
@@ -1388,8 +1412,22 @@ body {
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.break-all {
+  word-break: break-all;
 }
 
 .rounded-\[50\%\] {
@@ -1586,6 +1624,26 @@ body {
   padding-bottom: 250px;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-1 {
   padding-bottom: .25rem;
 }
@@ -1679,6 +1737,11 @@ body {
   line-height: 1rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1709,6 +1772,18 @@ body {
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-\[0\.95\] {
+  line-height: .95;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-\[1px\] {
@@ -2096,13 +2171,51 @@ body {
     grid-column: span 7 / span 7;
   }
 
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .sm\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .sm\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:gap-6 {
+    gap: 1.5rem;
   }
 
   .sm\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:text-4xl {
@@ -2113,6 +2226,31 @@ body {
   .sm\:text-\[80px\] {
     font-size: 80px;
   }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (width >= 768px) {
@@ -2122,6 +2260,14 @@ body {
 
   .md\:right-10 {
     right: 2.5rem;
+  }
+
+  .md\:bottom-\[10\%\] {
+    bottom: 10%;
+  }
+
+  .md\:right-\[4\%\] {
+    right: 4%;
   }
 
   .md\:col-span-5 {
@@ -2164,8 +2310,16 @@ body {
     align-items: flex-end;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-5 {
@@ -2176,6 +2330,20 @@ body {
     gap: 2rem;
   }
 
+  .md\:gap-0 {
+    gap: 0;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+  }
+
   .md\:border-b {
     border-bottom-width: 1px;
   }
@@ -2183,6 +2351,11 @@ body {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .md\:text-right {
@@ -2201,6 +2374,15 @@ body {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:text-\[80px\] {
+    font-size: 80px;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:hover\:\!opacity-100:hover {

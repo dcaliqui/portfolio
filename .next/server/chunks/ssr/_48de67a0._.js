@@ -66,7 +66,7 @@ const AboutMe = ()=>{
             ref: container,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade",
+                    className: "text-3xl sm:text-4xl md:text-6xl font-thin mb-12 sm:mb-20 slide-up-and-fade leading-tight",
                     children: "Ambiciono integrar uma equipa na qualidade de programador, com o propósito de contribuir para o desenvolvimento e a manutenção de soluções digitais."
                 }, void 0, false, {
                     fileName: "[project]/app/_components/AboutMe.tsx",
@@ -82,12 +82,12 @@ const AboutMe = ()=>{
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-12 mt-9",
+                    className: "grid md:grid-cols-12 mt-9 gap-8 md:gap-0",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "md:col-span-5",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-5xl slide-up-and-fade",
+                                className: "text-3xl sm:text-4xl md:text-5xl slide-up-and-fade leading-tight",
                                 children: "O meu nome é Damásio Caliqui."
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/AboutMe.tsx",
@@ -102,7 +102,7 @@ const AboutMe = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "md:col-span-7",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-lg text-muted-foreground max-w-[450px]",
+                                className: "text-base sm:text-lg text-muted-foreground max-w-[450px] leading-relaxed",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "slide-up-and-fade",
@@ -489,14 +489,14 @@ const Banner = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col",
+                className: "container min-h-[100svh] py-16 sm:py-20 md:py-0 flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center gap-10 md:gap-0",
                 ref: containerRef,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]",
+                        className: "w-full max-w-[544px] flex flex-col justify-center items-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton",
+                                className: "banner-title slide-up-and-fade leading-[0.95] text-4xl sm:text-5xl md:text-[80px] font-anton",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-primary",
                                     children: "DESENVOLVEDOR DE SOFTWARE"
@@ -511,7 +511,7 @@ const Banner = ()=>{
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground",
+                                className: "banner-description slide-up-and-fade mt-4 sm:mt-6 text-base sm:text-lg text-muted-foreground leading-relaxed",
                                 children: [
                                     "O meu nome é",
                                     ' ',
@@ -536,7 +536,7 @@ const Banner = ()=>{
                                 rel: "noopener noreferrer",
                                 href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GENERAL_INFO"].email}`,
                                 variant: "primary",
-                                className: "mt-9 banner-button slide-up-and-fade",
+                                className: "mt-6 sm:mt-9 banner-button slide-up-and-fade",
                                 children: "Contactar"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/Banner.tsx",
@@ -544,7 +544,7 @@ const Banner = ()=>{
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-2 mt-3",
+                                className: "flex items-center gap-2 mt-3 flex-wrap",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "size-3 rounded-full bg-white"
@@ -574,7 +574,7 @@ const Banner = ()=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right",
+                        className: "w-full md:absolute md:bottom-[10%] md:right-[4%] grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "slide-up-and-fade",
@@ -609,7 +609,7 @@ const Banner = ()=>{
                                         children: "20+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 82,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -617,13 +617,13 @@ const Banner = ()=>{
                                         children: "Projetos Concluídos"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 85,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 83,
+                                lineNumber: 81,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -634,7 +634,7 @@ const Banner = ()=>{
                                         children: "1200+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 88,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -642,13 +642,13 @@ const Banner = ()=>{
                                         children: "Horas de Prática"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 91,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 91,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, this)
                         ]
@@ -1267,7 +1267,7 @@ const Project = ({ index, project, selectedProject, onMouseEnter })=>{
                 alt: "Project",
                 width: "300",
                 height: "200",
-                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('w-full object-cover mb-6 aspect-[3/2] object-top'),
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('w-full object-cover mb-6 aspect-[3/2] object-top rounded-md'),
                 loading: "lazy"
             }, project.slug, false, {
                 fileName: "[project]/app/_components/Project.tsx",
@@ -1275,10 +1275,10 @@ const Project = ({ index, project, selectedProject, onMouseEnter })=>{
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex gap-2 md:gap-5",
+                className: "flex flex-col sm:flex-row gap-2 md:gap-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "font-anton text-muted-foreground",
+                        className: "font-anton text-muted-foreground text-sm sm:text-base",
                         children: [
                             "_",
                             (index + 1).toString().padStart(2, '0'),
@@ -1290,10 +1290,10 @@ const Project = ({ index, project, selectedProject, onMouseEnter })=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "",
+                        className: "min-w-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                className: "text-4xl xs:text-6xl flex gap-4 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left",
+                                className: "text-3xl sm:text-4xl md:text-6xl flex flex-wrap items-center gap-3 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left",
                                 children: [
                                     project.title,
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1352,7 +1352,7 @@ const Project = ({ index, project, selectedProject, onMouseEnter })=>{
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs",
+                                className: "mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs sm:text-sm",
                                 children: project.techStack.slice(0, 3).map((tech, idx, stackArr)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "gap-3 flex items-center",
                                         children: [
@@ -1361,14 +1361,14 @@ const Project = ({ index, project, selectedProject, onMouseEnter })=>{
                                                 children: tech
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Project.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 157,
                                                 columnNumber: 37
                                             }, this),
                                             idx !== stackArr.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "inline-block size-2 rounded-full bg-background-light"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Project.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 159,
                                                 columnNumber: 41
                                             }, this)
                                         ]

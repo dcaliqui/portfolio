@@ -54,7 +54,7 @@ const AboutMe = () => {
     return (
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
-                <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
+                <h2 className="text-3xl sm:text-4xl md:text-6xl font-thin mb-12 sm:mb-20 slide-up-and-fade leading-tight">
                     Ambiciono integrar uma equipa na qualidade de programador, com o propósito de contribuir
                     para o desenvolvimento e a manutenção de soluções digitais.
                 </h2>
@@ -63,14 +63,14 @@ const AboutMe = () => {
                     Sobre mim.
                 </p>
 
-                <div className="grid md:grid-cols-12 mt-9">
+                <div className="grid md:grid-cols-12 mt-9 gap-8 md:gap-0">
                     <div className="md:col-span-5">
-                        <p className="text-5xl slide-up-and-fade">
+                        <p className="text-3xl sm:text-4xl md:text-5xl slide-up-and-fade leading-tight">
                             O meu nome é Damásio Caliqui.
                         </p>
                     </div>
                     <div className="md:col-span-7">
-                        <div className="text-lg text-muted-foreground max-w-[450px]">
+                        <div className="text-base sm:text-lg text-muted-foreground max-w-[450px] leading-relaxed">
                             <p className="slide-up-and-fade">
                                 Sou estudante de programação na Escola 42 Luanda,
                                 possuindo formação em Informática de Gestão pelo IMEL.

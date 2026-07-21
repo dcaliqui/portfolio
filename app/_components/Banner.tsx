@@ -37,14 +37,14 @@ const Banner = () => {
         <section className="relative overflow-hidden" id="banner">
             <ArrowAnimation />
             <div
-                className="container h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col"
+                className="container min-h-[100svh] py-16 sm:py-20 md:py-0 flex flex-col justify-center items-start md:flex-row md:justify-between md:items-center gap-10 md:gap-0"
                 ref={containerRef}
             >
-                <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
-                    <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
+                <div className="w-full max-w-[544px] flex flex-col justify-center items-start">
+                    <h1 className="banner-title slide-up-and-fade leading-[0.95] text-4xl sm:text-5xl md:text-[80px] font-anton">
                         <span className="text-primary">DESENVOLVEDOR DE SOFTWARE</span>
                     </h1>
-                    <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
+                    <p className="banner-description slide-up-and-fade mt-4 sm:mt-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
                         O meu nome é{' '}
                         <span className="font-medium text-foreground">
                             Damásio Caliqui
@@ -58,12 +58,12 @@ const Banner = () => {
                         rel="noopener noreferrer"
                         href={`mailto:${GENERAL_INFO.email}`}
                         variant="primary"
-                        className="mt-9 banner-button slide-up-and-fade"
+                        className="mt-6 sm:mt-9 banner-button slide-up-and-fade"
                     >
                         Contactar
                     </Button>
 
-                    <div className="flex items-center gap-2 mt-3">
+                    <div className="flex items-center gap-2 mt-3 flex-wrap">
                         <span className="size-3 rounded-full bg-white"></span>
                         <span className="text-sm text-muted-foreground">
                             Disponível para novas oportunidades profissionais
@@ -71,22 +71,18 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
+                <div className="w-full md:absolute md:bottom-[10%] md:right-[4%] grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             4+
                         </h5>
-                        <p className="text-muted-foreground">
-                            Anos de Experiência
-                        </p>
+                        <p className="text-muted-foreground">Anos de Experiência</p>
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             20+
                         </h5>
-                        <p className="text-muted-foreground">
-                            Projetos Concluídos
-                        </p>
+                        <p className="text-muted-foreground">Projetos Concluídos</p>
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
