@@ -1,0 +1,27 @@
+{
+  "name": "Damásio Caliqui - Desenvolvedor Full Stack",
+  "short_name": "Damásio Caliqui",
+  "description": "Portfolio de Damásio Caliqui - Desenvolvedor Full Stack especializado em Next.js, React, C, Docker e Networking",
+  "start_url": "https://me.toinfinite.dev",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "categories": ["productivity", "business"],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/logo/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

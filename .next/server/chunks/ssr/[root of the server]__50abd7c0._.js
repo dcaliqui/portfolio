@@ -246,7 +246,7 @@ const PROJECTS = [
     {
         title: 'Controlo da Malária',
         slug: 'controlo-malaria',
-        year: 2024,
+        year: 2025,
         description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projeto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
       <br/> <br/>
       <ul>
@@ -275,7 +275,7 @@ const PROJECTS = [
     {
         title: 'Sistema Web para Igrejas',
         slug: 'sistema-igrejas',
-        year: 2024,
+        year: 2026,
         description: `Plataforma web concebida para a publicação e a gestão de atividades eclesiásticas, munida de um painel de administração e de uma interface responsiva.
       <br/> <br/>
       <ul>
@@ -299,7 +299,7 @@ const PROJECTS = [
     {
         title: 'Projeto Inception - Docker',
         slug: 'projecto-inception',
-        year: 2024,
+        year: 2026,
         description: `Configuração integral de infraestruturas com recurso ao Docker e ao Docker Compose, com vista ao estabelecimento de um ambiente multi-serviço.
             <br/> <br/>
             <div class="my-6 text-center">
@@ -328,7 +328,7 @@ const PROJECTS = [
     {
         title: 'Minishell',
         slug: 'minishell',
-        year: 2024,
+        year: 2025,
         description: `O Minishell é um projeto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projeto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
       <br/> <br/>
       <ul>
@@ -352,7 +352,7 @@ const PROJECTS = [
     {
         title: 'NetPractice',
         slug: 'netpractice',
-        year: 2024,
+        year: 2025,
         description: `Projeto da Escola 42 focado no aprendizado de redes TCP/IP. O projeto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
       <br/> <br/>
       <ul>
@@ -372,6 +372,32 @@ const PROJECTS = [
         longThumbnail: '/projects/images/netPractice.png',
         images: [
             '/projects/images/netPractice.png'
+        ]
+    },
+    {
+        title: 'Concurso Mirantes - Codespace',
+        slug: 'concurso-mirantes-codespace',
+        year: 2025,
+        description: `Participei no concurso da Mirantes com o grupo Codespace. O projeto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.
+            <br/> <br/>
+            <ul>
+                <li>Participação em equipa no grupo Codespace</li>
+                <li>9.º lugar na classificação final</li>
+                <li>Prémio de melhor pitch</li>
+                <li>Apresentação de startup com foco em comunicação e impacto</li>
+            </ul>`,
+        role: `Membro da equipa Codespace e orador na apresentação.`,
+        techStack: [
+            'Pitch',
+            'Startup',
+            'Teamwork'
+        ],
+        thumbnail: '/projects/images/Startup2.png',
+        longThumbnail: '/projects/images/Startup2.png',
+        images: [
+            '/projects/images/Startup2.png',
+            '/projects/images/pitch.jpeg',
+            '/projects/images/pitch2.jpeg'
         ]
     }
 ];

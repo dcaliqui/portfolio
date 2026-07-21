@@ -88,9 +88,53 @@ const generateStaticParams = async ()=>{
 const generateMetadata = async ({ params })=>{
     const { slug } = await params;
     const project = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROJECTS"].find((project)=>project.slug === slug);
+    if (!project) {
+        return {
+            title: 'Projeto não encontrado'
+        };
+    }
+    const cleanDescription = project.description.replace(/<[^>]*>/g, '').substring(0, 160);
     return {
-        title: `${project?.title} - ${project?.techStack.slice(0, 3).join(', ')}`,
-        description: project?.description
+        title: `${project.title} - ${project.techStack.slice(0, 3).join(', ')} | Damásio Caliqui`,
+        description: cleanDescription,
+        keywords: [
+            project.title,
+            ...project.techStack,
+            'Escola 42',
+            'Damásio Caliqui',
+            'projeto'
+        ],
+        authors: [
+            {
+                name: 'Damásio Caliqui'
+            }
+        ],
+        openGraph: {
+            type: 'article',
+            title: project.title,
+            description: cleanDescription,
+            url: `https://me.toinfinite.dev/projects/${project.slug}`,
+            images: [
+                {
+                    url: `https://me.toinfinite.dev${project.thumbnail}`,
+                    width: 1200,
+                    height: 630,
+                    alt: project.title
+                }
+            ],
+            publishedTime: new Date(project.year, 0).toISOString(),
+            authors: [
+                'Damásio Caliqui'
+            ]
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: project.title,
+            description: cleanDescription,
+            images: [
+                `https://me.toinfinite.dev${project.thumbnail}`
+            ]
+        }
     };
 };
 const Page = async ({ params })=>{
@@ -103,7 +147,7 @@ const Page = async ({ params })=>{
         project: project
     }, void 0, false, {
         fileName: "[project]/app/projects/[slug]/page.tsx",
-        lineNumber: 35,
+        lineNumber: 73,
         columnNumber: 12
     }, this);
 };

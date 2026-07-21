@@ -117,7 +117,7 @@ const ProjectList = () => {
                             {PROJECTS.map((project) => (
                                 <Image
                                     src={project.thumbnail}
-                                    alt="Project"
+                                    alt={`${project.title} - Projeto de Damásio Caliqui`}
                                     width="400"
                                     height="500"
                                     className={cn(
