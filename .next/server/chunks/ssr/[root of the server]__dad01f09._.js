@@ -77,6 +77,8 @@ __turbopack_context__.s({
 });
 const GENERAL_INFO = {
     email: 'damasiocipriano425@gmail.com',
+    phone: '+244 944 026 729',
+    phone2: '+244 952 160 514',
     emailSubject: 'Proposta de Colaboração Profissional',
     emailBody: 'Caro Damásio, contacto-o com o intuito de...',
     oldPortfolio: '',

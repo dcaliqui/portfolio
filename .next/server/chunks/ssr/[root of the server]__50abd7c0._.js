@@ -169,6 +169,8 @@ __turbopack_context__.s({
 });
 const GENERAL_INFO = {
     email: 'damasiocipriano425@gmail.com',
+    phone: '+244 944 026 729',
+    phone2: '+244 952 160 514',
     emailSubject: 'Proposta de Colaboração Profissional',
     emailBody: 'Caro Damásio, contacto-o com o intuito de...',
     oldPortfolio: '',
@@ -662,6 +664,33 @@ const Navbar = ()=>{
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.tsx",
                                                 lineNumber: 147,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-3 md:text-right",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GENERAL_INFO"].phone.replace(/\s+/g, '')}`,
+                                                        className: "block text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GENERAL_INFO"].phone
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Navbar.tsx",
+                                                        lineNumber: 154,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GENERAL_INFO"].phone2.replace(/\s+/g, '')}`,
+                                                        className: "block text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1 mt-1",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GENERAL_INFO"].phone2
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Navbar.tsx",
+                                                        lineNumber: 160,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/Navbar.tsx",
+                                                lineNumber: 153,
                                                 columnNumber: 33
                                             }, this)
                                         ]

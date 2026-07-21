@@ -150,6 +150,20 @@ const Navbar = () => {
                                 >
                                     {GENERAL_INFO.email}
                                 </a>
+                                <div className="mt-3 md:text-right">
+                                    <a
+                                        href={`tel:${GENERAL_INFO.phone.replace(/\s+/g, '')}`}
+                                        className="block text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1"
+                                    >
+                                        {GENERAL_INFO.phone}
+                                    </a>
+                                    <a
+                                        href={`tel:${GENERAL_INFO.phone2.replace(/\s+/g, '')}`}
+                                        className="block text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1 mt-1"
+                                    >
+                                        {GENERAL_INFO.phone2}
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
