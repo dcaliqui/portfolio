@@ -1,0 +1,148 @@
+import { IProject } from '@/types';
+
+export const GENERAL_INFO = {
+    email: 'damasiocipriano425@gmail.com',
+
+    emailSubject: 'Proposta de Colaboração Profissional',
+    emailBody: 'Caro Damásio, contacto-o com o intuito de...',
+
+    oldPortfolio: '',
+    upworkProfile: '',
+};
+
+export const SOCIAL_LINKS = [
+    { name: 'github', url: 'https://github.com' },
+    { name: 'linkedin', url: 'https://www.linkedin.com' },
+];
+
+export const MY_STACK = {
+    frontend: [
+        {
+            name: 'HTML',
+            icon: '/logo/html.svg',
+        },
+        {
+            name: 'CSS',
+            icon: '/logo/css.svg',
+        },
+        {
+            name: 'JavaScript',
+            icon: '/logo/js.png',
+        },
+        {
+            name: 'Next.js',
+            icon: '/logo/next.png',
+        },
+    ],
+    backend: [
+        {
+            name: 'C',
+            icon: '/logo/c.svg',
+        },
+        {
+            name: 'C++',
+            icon: '/logo/cpp.svg',
+        },
+        {
+            name: 'C#',
+            icon: '/logo/csharp.svg',
+        },
+        {
+            name: 'Spring Boot',
+            icon: '/logo/spring-boot.svg',
+        },
+    ],
+    database: [
+        {
+            name: 'MySQL',
+            icon: '/logo/mysql.svg',
+        },
+        {
+            name: 'PostgreSQL',
+            icon: '/logo/postgreSQL.png',
+        },
+    ],
+    tools: [
+        {
+            name: 'Git',
+            icon: '/logo/git.png',
+        },
+        {
+            name: 'Docker',
+            icon: '/logo/docker.svg',
+        },
+    ],
+};
+
+export const PROJECTS: IProject[] = [
+    {
+        title: 'Controlo da Malária',
+        slug: 'controlo-malaria',
+        year: 2024,
+        description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projeto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
+      <br/> <br/>
+      <ul>
+        <li>Mapa interativo com a localização de focos de risco</li>
+        <li>Sistema de pontuação e de prémios para utilizadores ativos</li>
+        <li>Notificações inteligentes relativas a novos focos de risco nas imediações</li>
+        <li>Relatórios comunitários e medidas de prevenção proativas</li>
+        <li>Reconhecimento, por parte do júri, como o melhor projeto</li>
+      </ul>`,
+        role: `Programador Mobile e membro da equipa vencedora.`,
+        techStack: ['Flutter', 'Firebase', 'Dart', 'Google Maps API'],
+        thumbnail: '/projects/images/mapazzz.jpeg',
+        longThumbnail: '/projects/images/mapazzz.jpeg',
+        images: ['/projects/images/mapazzz.jpeg', '/projects/images/mapazzz2.jpeg', '/projects/images/mapazzz3.png'],
+        liveUrl: 'https://mapa-zzz-team-83bq43p0i-miros-projects-c74f19f1.vercel.app/',
+    },
+    {
+        title: 'Sistema Web para Igrejas',
+        slug: 'sistema-igrejas',
+        year: 2024,
+        description: `Plataforma web concebida para a publicação e a gestão de atividades eclesiásticas, munida de um painel de administração e de uma interface responsiva.
+      <br/> <br/>
+      <ul>
+        <li>Gestão de eventos, de avisos e de atividades paroquiais</li>
+        <li>Interface responsiva com painel de controlo administrativo</li>
+      </ul>`,
+        role: `Programador Full-Stack (Projeto Pessoal).`,
+        techStack: ['Next.js (App Router)', 'Frontend', 'Backend'],
+        thumbnail: '/projects/images/claris1.png',
+        longThumbnail: '/projects/images/claris1.png',
+        images: ['/projects/images/claris1.png', '/projects/images/claris2.png', '/projects/images/claris3.png'],
+    },
+    {
+        title: 'Projeto Inception - Docker',
+        slug: 'projecto-inception',
+        year: 2024,
+                description: `Configuração integral de infraestruturas com recurso ao Docker e ao Docker Compose, com vista ao estabelecimento de um ambiente multi-serviço.
+            <br/> <br/>
+            <div class="my-6 text-center">
+                <img src="/projects/images/inception.png" alt="Inception" style="max-width:100%;height:auto;" />
+            </div>
+            <br/>
+            <ul>
+                <li>Contentores para NGINX, WordPress e MariaDB</li>
+                <li>Configuração de redes e de volumes em ambiente Docker</li>
+                <li>Ambiente orquestrado através do Docker Compose</li>
+            </ul>`,
+        role: `Administrador de Sistemas / DevOps.`,
+        techStack: ['Docker', 'Docker Compose', 'NGINX', 'WordPress', 'MariaDB'],
+                thumbnail: '/projects/images/inception.png',
+                longThumbnail: '/projects/images/inception.png',
+                images: ['/projects/images/inception.png'],
+    },
+];
+
+export const MY_EXPERIENCE = [
+    {
+        title: 'Estudante de Programação (Tronco comum concluído na íntegra)',
+        company: 'Escola 42 Luanda',
+        duration: 'Concluído',
+    },
+    {
+        title: 'Formação em Informática de Gestão',
+        company: 'IMEL',
+        duration: 'Concluído',
+    },
+];

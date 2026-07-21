@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="C# language">
+  <rect width="256" height="256" rx="48" fill="#9B4F96"/>
+  <path fill="#fff" d="M174 84c-9-12-24-19-42-19-34 0-61 23-61 63s27 63 61 63c18 0 33-7 42-19l-22-16c-5 6-11 10-20 10-16 0-28-12-28-38s12-38 28-38c9 0 15 4 20 10l22-16z"/>
+  <path fill="#fff" d="M194 88h14v16h16V88h14v16h-14v14h14v16h-14v14h-16v-14h-14v14h-16v-14h14v-16h-14v-14h14V88zm14 30h16V104h-16v14z"/>
+</svg>

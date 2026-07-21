@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="C++ language">
+  <rect width="256" height="256" rx="48" fill="#00599C"/>
+  <path fill="#fff" d="M90 82c-10 10-16 24-16 46s6 36 16 46c10 11 24 17 44 17 17 0 31-5 42-15l-16-20c-7 6-15 10-26 10-15 0-26-9-26-38s11-38 26-38c11 0 19 4 26 10l16-20c-11-10-25-15-42-15-20 0-34 6-44 17zm108 19v17h-17v17h-17v-17h-17V101h17V84h17v17h17zm0 34v17h-17v17h-17v-17h-17v-17h17v-17h17v17h17z"/>
+</svg>
