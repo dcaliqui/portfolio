@@ -14,19 +14,19 @@ const COLORS = [
 
 const MENU_LINKS = [
     {
-        name: 'Home',
+        name: 'Início',
         url: '/',
     },
     {
-        name: 'About Me',
+        name: 'Sobre Mim',
         url: '/#about-me',
     },
     {
-        name: 'Experience',
+        name: 'Experiência',
         url: '/#my-experience',
     },
     {
-        name: 'Projects',
+        name: 'Projetos',
         url: '/#selected-projects',
     },
 ];
@@ -123,7 +123,7 @@ const Navbar = () => {
                         <div className="flex flex-col md:items-end space-y-12 mt-12 md:mt-0">
                             <div className={cn("transition-all duration-700", isMenuOpen ? "opacity-100 translate-x-0 delay-500" : "opacity-0 translate-x-8")}>
                                 <p className="text-primary font-bold tracking-widest text-sm uppercase mb-6 opacity-70 md:text-right">
-                                    Socials
+                                    Redes Sociais
                                 </p>
                                 <ul className="flex flex-col md:flex-row gap-6 md:justify-end">
                                     {SOCIAL_LINKS.map((link) => (
@@ -143,7 +143,7 @@ const Navbar = () => {
                             </div>
                             
                             <div className={cn("transition-all duration-700", isMenuOpen ? "opacity-100 translate-x-0 delay-700" : "opacity-0 translate-x-8")}>
-                                <p className="text-primary font-bold tracking-widest text-sm uppercase mb-4 opacity-70 md:text-right">Get In Touch</p>
+                                <p className="text-primary font-bold tracking-widest text-sm uppercase mb-4 opacity-70 md:text-right">Contato</p>
                                 <a 
                                     href={`mailto:${GENERAL_INFO.email}`}
                                     className="text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1"

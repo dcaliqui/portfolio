@@ -544,7 +544,7 @@ const Banner = ()=>{
                                 className: "banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-primary",
-                                    children: "PROGRAMADOR"
+                                    children: "DESENVOLVEDOR DE SOFTWARE"
                                 }, void 0, false, {
                                     fileName: "[project]/app/_components/Banner.tsx",
                                     lineNumber: 45,
@@ -626,7 +626,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "5+"
+                                        children: "4+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 76,
@@ -651,7 +651,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "3+"
+                                        children: "20+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 84,
@@ -676,7 +676,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "800+"
+                                        children: "1200+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 92,
