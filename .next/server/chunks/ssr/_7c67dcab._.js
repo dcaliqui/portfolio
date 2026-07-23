@@ -12,6 +12,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@gsap/react/src/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/gsap/ScrollTrigger.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/code-xml.js [app-ssr] (ecmascript) <export default as Code2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/earth.js [app-ssr] (ecmascript) <export default as Globe2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trophy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trophy$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trophy.js [app-ssr] (ecmascript) <export default as Trophy>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 'use client';
 ;
@@ -19,41 +23,40 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
+;
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScrollTrigger"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGSAP"]);
+const highlights = [
+    {
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trophy$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Trophy$3e$__["Trophy"],
+        text: 'Fui distinguido como vencedor do Hackathon interno da Escola 42 Luanda, através do desenvolvimento de uma aplicação orientada para o controlo da malária.'
+    },
+    {
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__["Globe2"],
+        text: 'Concebi um sistema web destinado a instituições religiosas e concluí o projecto Inception através da utilização do Docker.'
+    },
+    {
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"],
+        text: 'Em 2025, participei no concurso da Mirantes com o grupo Codespace, alcançando o 9.º lugar e o prémio de melhor pitch.'
+    },
+    {
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__["Code2"],
+        text: 'Sou apaixonado por tecnologia e desenvolvo soluções que unem criatividade, propósito e impacto.'
+    }
+];
 const AboutMe = ()=>{
     const container = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].useRef(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGSAP"])(()=>{
-        const tl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].timeline({
-            scrollTrigger: {
-                id: 'about-me-in',
-                trigger: container.current,
-                start: 'top 70%',
-                end: 'bottom bottom',
-                scrub: 0.5
-            }
-        });
-        tl.from('.slide-up-and-fade', {
-            y: 150,
+        const elements = container.current?.querySelectorAll('.slide-up-and-fade');
+        if (!elements?.length) return;
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].from(elements, {
+            y: 60,
             opacity: 0,
-            stagger: 0.05
-        });
-    }, {
-        scope: container
-    });
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGSAP"])(()=>{
-        const tl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].timeline({
+            stagger: 0.1,
             scrollTrigger: {
-                id: 'about-me-out',
                 trigger: container.current,
-                start: 'bottom 50%',
-                end: 'bottom 10%',
-                scrub: 0.5
+                start: 'top 75%',
+                toggleActions: 'play none none reverse'
             }
-        });
-        tl.to('.slide-up-and-fade', {
-            y: -150,
-            opacity: 0,
-            stagger: 0.02
         });
     }, {
         scope: container
@@ -65,87 +68,121 @@ const AboutMe = ()=>{
             className: "container",
             ref: container,
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-3xl sm:text-4xl md:text-6xl font-thin mb-12 sm:mb-20 slide-up-and-fade leading-tight",
-                    children: "Ambiciono integrar uma equipa na qualidade de programador, com o propósito de contribuir para o desenvolvimento e a manutenção de soluções digitais."
-                }, void 0, false, {
-                    fileName: "[project]/app/_components/AboutMe.tsx",
-                    lineNumber: 57,
-                    columnNumber: 17
-                }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "pb-3 border-b text-muted-foreground slide-up-and-fade",
+                    className: "slide-up-and-fade border-b border-border pb-4 text-muted-foreground",
                     children: "Sobre mim."
                 }, void 0, false, {
                     fileName: "[project]/app/_components/AboutMe.tsx",
-                    lineNumber: 62,
+                    lineNumber: 55,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-12 mt-9 gap-8 md:gap-0",
+                    className: "mt-12 grid gap-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "md:col-span-5",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-3xl sm:text-4xl md:text-5xl slide-up-and-fade leading-tight",
-                                children: "O meu nome é Damásio Caliqui."
-                            }, void 0, false, {
-                                fileName: "[project]/app/_components/AboutMe.tsx",
-                                lineNumber: 68,
-                                columnNumber: 25
-                            }, this)
-                        }, void 0, false, {
+                            className: "slide-up-and-fade",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl leading-tight sm:text-5xl md:text-6xl",
+                                    children: [
+                                        "O meu nome é",
+                                        ' ',
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-primary",
+                                            children: "Damásio Caliqui."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/AboutMe.tsx",
+                                            lineNumber: 63,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/_components/AboutMe.tsx",
+                                    lineNumber: 61,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-10 h-px w-20 bg-primary"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/_components/AboutMe.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-12 max-w-xl text-justify text-base leading-relaxed text-muted-foreground sm:text-lg",
+                                    children: "Sou estudante de programação na Escola 42 Luanda, com formação em Informática de Gestão pelo IMEL. Tenho experiência em desenvolvimento web e de software, com conhecimentos em C, C++, C#, HTML, CSS, JavaScript e Next.js."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/_components/AboutMe.tsx",
+                                    lineNumber: 66,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/_components/AboutMe.tsx",
-                            lineNumber: 67,
+                            lineNumber: 60,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "md:col-span-7",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-base sm:text-lg text-muted-foreground max-w-[450px] leading-relaxed",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "slide-up-and-fade",
-                                        children: "Sou estudante de programação na Escola 42 Luanda, possuindo formação em Informática de Gestão pelo IMEL. Detenho experiência em desenvolvimento web e de software, dominando linguagens como C, C++, C#, HTML, CSS, JavaScript e Next.js."
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/_components/AboutMe.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-3 slide-up-and-fade",
-                                        children: "Fui distinguido como vencedor do Hackathon interno da Escola 42 Luanda, mediante o desenvolvimento de uma aplicação orientada para o controlo da malária. Adicionalmente, concebi um sistema web destinado a instituições religiosas e concluí o projecto Inception através da utilização do Docker. Em 2025, participei no concurso da Mirantes com o grupo Codespace, alcançando o 9.º lugar e o prémio de melhor pitch."
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/_components/AboutMe.tsx",
-                                        lineNumber: 80,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/_components/AboutMe.tsx",
-                                lineNumber: 73,
-                                columnNumber: 25
-                            }, this)
+                            className: "relative space-y-10 before:absolute before:bottom-8 before:left-6 before:top-8 before:w-px before:bg-border sm:space-y-12 sm:before:left-11",
+                            children: highlights.map(({ icon: Icon, text })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "slide-up-and-fade relative grid grid-cols-[48px_1fr] gap-6 sm:grid-cols-[88px_1fr] sm:gap-7",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "relative z-[1] flex size-12 items-center justify-center rounded-full border border-border bg-background-light text-primary shadow-[0_0_24px_hsl(var(--primary)/0.12)] sm:size-[88px]",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                                className: "size-6 sm:size-9",
+                                                strokeWidth: 1.7
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/_components/AboutMe.tsx",
+                                                lineNumber: 82,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/AboutMe.tsx",
+                                            lineNumber: 81,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "absolute left-[19px] top-5 z-[2] size-2.5 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] sm:left-[39px] sm:top-10"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/AboutMe.tsx",
+                                            lineNumber: 84,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "pt-2 text-base leading-relaxed text-muted-foreground sm:pt-5 sm:text-lg",
+                                            children: text
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/AboutMe.tsx",
+                                            lineNumber: 85,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, text, true, {
+                                    fileName: "[project]/app/_components/AboutMe.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 29
+                                }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/_components/AboutMe.tsx",
-                            lineNumber: 72,
+                            lineNumber: 75,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/_components/AboutMe.tsx",
-                    lineNumber: 66,
+                    lineNumber: 59,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/_components/AboutMe.tsx",
-            lineNumber: 56,
+            lineNumber: 54,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/_components/AboutMe.tsx",
-        lineNumber: 55,
+        lineNumber: 53,
         columnNumber: 9
     }, this);
 };
