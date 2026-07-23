@@ -80,7 +80,7 @@ const AboutMe = () => {
                             <p className="mt-3 slide-up-and-fade">
                                 Fui distinguido como vencedor do Hackathon interno da Escola 42 Luanda,
                                 mediante o desenvolvimento de uma aplicação orientada para o controlo da malária. Adicionalmente,
-                                concebi um sistema web destinado a instituições religiosas e concluí o projeto
+                                concebi um sistema web destinado a instituições religiosas e concluí o projecto
                                 Inception através da utilização do Docker. Em 2025, participei no concurso da Mirantes
                                 com o grupo Codespace, alcançando o 9.º lugar e o prémio de melhor pitch.
                             </p>

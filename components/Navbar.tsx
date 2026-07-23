@@ -26,7 +26,7 @@ const MENU_LINKS = [
         url: '/#my-experience',
     },
     {
-        name: 'Projetos',
+        name: 'Projectos',
         url: '/#selected-projects',
     },
 ];
@@ -154,7 +154,7 @@ const Navbar = () => {
                             </div>
                             
                             <div className={cn("transition-all duration-700", isMenuOpen ? "opacity-100 translate-x-0 delay-700" : "opacity-0 translate-x-8")}>
-                                <p className="text-primary font-bold tracking-widest text-sm uppercase mb-4 opacity-70 md:text-right">Contato</p>
+                                <p className="text-primary font-bold tracking-widest text-sm uppercase mb-4 opacity-70 md:text-right">Contacto</p>
                                 <a 
                                     href={`mailto:${GENERAL_INFO.email}`}
                                     className="text-base sm:text-lg lg:text-xl text-foreground/70 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1 break-all"

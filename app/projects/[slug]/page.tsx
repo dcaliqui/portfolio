@@ -17,7 +17,7 @@ export const generateMetadata = async ({
 
     if (!project) {
         return {
-            title: 'Projeto não encontrado',
+            title: 'Projecto não encontrado',
         };
     }
 
@@ -33,7 +33,7 @@ export const generateMetadata = async ({
             ...project.techStack,
             'Escola 42',
             'Damásio Caliqui',
-            'projeto',
+            'projecto',
         ],
         authors: [{ name: 'Damásio Caliqui' }],
         openGraph: {

@@ -81,20 +81,24 @@ export const PROJECTS: IProject[] = [
         title: 'Controlo da Malária',
         slug: 'controlo-malaria',
         year: 2025,
-        description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projeto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
+        description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projecto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
       <br/> <br/>
       <ul>
         <li>Mapa interativo com a localização de focos de risco</li>
         <li>Sistema de pontuação e de prémios para utilizadores ativos</li>
         <li>Notificações inteligentes relativas a novos focos de risco nas imediações</li>
         <li>Relatórios comunitários e medidas de prevenção proativas</li>
-        <li>Reconhecimento, por parte do júri, como o melhor projeto</li>
+        <li>Reconhecimento, por parte do júri, como o melhor projecto</li>
       </ul>`,
         role: `Programador Mobile e membro da equipa vencedora.`,
         techStack: ['Flutter', 'Firebase', 'Dart', 'Google Maps API'],
-        thumbnail: '/projects/images/mapazzz.jpeg',
-        longThumbnail: '/projects/images/mapazzz.jpeg',
-        images: ['/projects/images/mapazzz.jpeg', '/projects/images/mapazzz2.jpeg', '/projects/images/mapazzz3.png'],
+        thumbnail: '/projects/images/mapazzz.png',
+        longThumbnail: '/projects/images/mapazzz.png',
+        images: [
+            '/projects/images/mapazzz.png',
+            '/projects/images/mapazz2.png',
+            '/projects/images/mapazzz3.png',
+        ],
         liveUrl: 'https://mapa-zzz-team-83bq43p0i-miros-projects-c74f19f1.vercel.app/',
     },
     {
@@ -107,14 +111,14 @@ export const PROJECTS: IProject[] = [
         <li>Gestão de eventos, de avisos e de atividades paroquiais</li>
         <li>Interface responsiva com painel de controlo administrativo</li>
       </ul>`,
-        role: `Programador Full-Stack (Projeto Pessoal).`,
+        role: `Programador Full-Stack (Projecto Pessoal).`,
         techStack: ['Next.js (App Router)', 'Frontend', 'Backend'],
         thumbnail: '/projects/images/claris1.png',
         longThumbnail: '/projects/images/claris1.png',
         images: ['/projects/images/claris1.png', '/projects/images/claris2.png', '/projects/images/claris3.png'],
     },
     {
-        title: 'Projeto Inception - Docker',
+        title: 'Projecto Inception - Docker',
         slug: 'projecto-inception',
         year: 2026,
                 description: `Configuração integral de infraestruturas com recurso ao Docker e ao Docker Compose, com vista ao estabelecimento de um ambiente multi-serviço.
@@ -138,7 +142,7 @@ export const PROJECTS: IProject[] = [
         title: 'Minishell',
         slug: 'minishell',
         year: 2025,
-        description: `O Minishell é um projeto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projeto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
+        description: `O Minishell é um projecto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projecto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
       <br/> <br/>
       <ul>
         <li>Implementação de um interpretador de comandos (shell) em C</li>
@@ -146,7 +150,7 @@ export const PROJECTS: IProject[] = [
         <li>Implementação de redirecionamentos (>, <, >>, <<) e pipes (|)</li>
         <li>Gestão de variáveis de ambiente e comandos internos (built-ins)</li>
       </ul>`,
-        role: `Desenvolvedor C (Projeto Escola 42).`,
+        role: `Desenvolvedor C (Projecto Escola 42).`,
         techStack: ['C', 'Shell', 'Unix/Linux'],
         thumbnail: '/projects/images/minishell.png',
         longThumbnail: '/projects/images/minishell.png',
@@ -156,7 +160,7 @@ export const PROJECTS: IProject[] = [
         title: 'NetPractice',
         slug: 'netpractice',
         year: 2025,
-        description: `Projeto da Escola 42 focado no aprendizado de redes TCP/IP. O projeto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
+        description: `Projecto da Escola 42 focado na aprendizagem de redes TCP/IP. O projecto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
       <br/> <br/>
       <ul>
         <li>Configuração e análise de redes TCP/IP</li>
@@ -165,7 +169,7 @@ export const PROJECTS: IProject[] = [
         <li>Resolução de problemas de conectividade de rede</li>
         <li>Domínio de conceitos fundamentais de redes</li>
       </ul>`,
-        role: `Estudante de Redes (Projeto Escola 42).`,
+        role: `Estudante de Redes (Projecto Escola 42).`,
         techStack: ['Networking', 'TCP/IP', 'Routing'],
         thumbnail: '/projects/images/netPractice.png',
         longThumbnail: '/projects/images/netPractice.png',
@@ -175,7 +179,7 @@ export const PROJECTS: IProject[] = [
                 title: 'Concurso Mirantes',
                 slug: 'concurso-mirantes-codespace',
                 year: 2025,
-                description: `Participei no concurso da Mirantes com o grupo Codespace. O projeto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.
+                description: `Participei no concurso da Mirantes com o grupo Codespace. O projecto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.
             <br/> <br/>
             <ul>
                 <li>Participação em equipa no grupo Codespace</li>

@@ -30,7 +30,7 @@ const robotoFlex = Roboto_Flex({
 
 export const metadata: Metadata = {
     title: 'Damásio Caliqui - Desenvolvedor Full Stack | Escola 42 Luanda',
-    description: 'Portfolio de Damásio Caliqui - Desenvolvedor Full Stack, especialista em Next.js, React, C, Docker e Networking. Projetos da Escola 42 Luanda.',
+    description: 'Portfolio de Damásio Caliqui - Desenvolvedor Full Stack, especialista em Next.js, React, C, Docker e Networking. Projectos da Escola 42 Luanda.',
     keywords: ['Damásio Caliqui', 'desenvolvedor', 'full stack', 'Next.js', 'React', 'C', 'Docker', 'networking', 'Escola 42', 'Luanda', 'programador', 'portfolio'],
     authors: [{ name: 'Damásio Caliqui' }],
     creator: 'Damásio Caliqui',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         type: 'website',
         url: 'https://me.toinfinite.dev',
         title: 'Damásio Caliqui - Desenvolvedor Full Stack',
-        description: 'Explore meus projetos e experiência como desenvolvedor full stack formado pela Escola 42 Luanda.',
+        description: 'Explore os meus projectos e experiência como desenvolvedor full stack formado pela Escola 42 Luanda.',
         siteName: 'Damásio Caliqui',
         images: [
             {

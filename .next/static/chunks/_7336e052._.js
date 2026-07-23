@@ -252,14 +252,14 @@ const PROJECTS = [
         title: 'Controlo da Malária',
         slug: 'controlo-malaria',
         year: 2025,
-        description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projeto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
+        description: `A aplicação MapaZZZ destina-se ao controlo e à monitorização em tempo real da malária em comunidades vulneráveis. Constituiu o projecto vencedor do hackathon interno da Escola 42 Luanda. A plataforma viabiliza a denúncia de zonas de risco, a receção de notificações inteligentes e o acompanhamento de campanhas de prevenção.
       <br/> <br/>
       <ul>
         <li>Mapa interativo com a localização de focos de risco</li>
         <li>Sistema de pontuação e de prémios para utilizadores ativos</li>
         <li>Notificações inteligentes relativas a novos focos de risco nas imediações</li>
         <li>Relatórios comunitários e medidas de prevenção proativas</li>
-        <li>Reconhecimento, por parte do júri, como o melhor projeto</li>
+        <li>Reconhecimento, por parte do júri, como o melhor projecto</li>
       </ul>`,
         role: `Programador Mobile e membro da equipa vencedora.`,
         techStack: [
@@ -268,11 +268,11 @@ const PROJECTS = [
             'Dart',
             'Google Maps API'
         ],
-        thumbnail: '/projects/images/mapazzz.jpeg',
-        longThumbnail: '/projects/images/mapazzz.jpeg',
+        thumbnail: '/projects/images/mapazzz.png',
+        longThumbnail: '/projects/images/mapazzz.png',
         images: [
-            '/projects/images/mapazzz.jpeg',
-            '/projects/images/mapazzz2.jpeg',
+            '/projects/images/mapazzz.png',
+            '/projects/images/mapazz2.png',
             '/projects/images/mapazzz3.png'
         ],
         liveUrl: 'https://mapa-zzz-team-83bq43p0i-miros-projects-c74f19f1.vercel.app/'
@@ -287,7 +287,7 @@ const PROJECTS = [
         <li>Gestão de eventos, de avisos e de atividades paroquiais</li>
         <li>Interface responsiva com painel de controlo administrativo</li>
       </ul>`,
-        role: `Programador Full-Stack (Projeto Pessoal).`,
+        role: `Programador Full-Stack (Projecto Pessoal).`,
         techStack: [
             'Next.js (App Router)',
             'Frontend',
@@ -302,7 +302,7 @@ const PROJECTS = [
         ]
     },
     {
-        title: 'Projeto Inception - Docker',
+        title: 'Projecto Inception - Docker',
         slug: 'projecto-inception',
         year: 2026,
         description: `Configuração integral de infraestruturas com recurso ao Docker e ao Docker Compose, com vista ao estabelecimento de um ambiente multi-serviço.
@@ -334,7 +334,7 @@ const PROJECTS = [
         title: 'Minishell',
         slug: 'minishell',
         year: 2025,
-        description: `O Minishell é um projeto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projeto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
+        description: `O Minishell é um projecto desenvolvido no âmbito da Escola 42, focado na criação de um interpretador de comandos simples, inspirado no Bash. O projecto permite aprofundar os conhecimentos sobre processos, descritores de ficheiros e execução de comandos no sistema operativo Unix.
       <br/> <br/>
       <ul>
         <li>Implementação de um interpretador de comandos (shell) em C</li>
@@ -342,7 +342,7 @@ const PROJECTS = [
         <li>Implementação de redirecionamentos (>, <, >>, <<) e pipes (|)</li>
         <li>Gestão de variáveis de ambiente e comandos internos (built-ins)</li>
       </ul>`,
-        role: `Desenvolvedor C (Projeto Escola 42).`,
+        role: `Desenvolvedor C (Projecto Escola 42).`,
         techStack: [
             'C',
             'Shell',
@@ -358,7 +358,7 @@ const PROJECTS = [
         title: 'NetPractice',
         slug: 'netpractice',
         year: 2025,
-        description: `Projeto da Escola 42 focado no aprendizado de redes TCP/IP. O projeto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
+        description: `Projecto da Escola 42 focado na aprendizagem de redes TCP/IP. O projecto consiste em configurar diferentes topologias de rede e resolver problemas de configuração de endereços IP, máscara de rede, routing e protocolos de rede.
       <br/> <br/>
       <ul>
         <li>Configuração e análise de redes TCP/IP</li>
@@ -367,7 +367,7 @@ const PROJECTS = [
         <li>Resolução de problemas de conectividade de rede</li>
         <li>Domínio de conceitos fundamentais de redes</li>
       </ul>`,
-        role: `Estudante de Redes (Projeto Escola 42).`,
+        role: `Estudante de Redes (Projecto Escola 42).`,
         techStack: [
             'Networking',
             'TCP/IP',
@@ -383,7 +383,7 @@ const PROJECTS = [
         title: 'Concurso Mirantes',
         slug: 'concurso-mirantes-codespace',
         year: 2025,
-        description: `Participei no concurso da Mirantes com o grupo Codespace. O projeto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.
+        description: `Participei no concurso da Mirantes com o grupo Codespace. O projecto destacou-se pela apresentação e pela qualidade da proposta, garantindo o 9.º lugar e o prémio de melhor pitch.
             <br/> <br/>
             <ul>
                 <li>Participação em equipa no grupo Codespace</li>
@@ -465,7 +465,7 @@ const MENU_LINKS = [
         url: '/#my-experience'
     },
     {
-        name: 'Projetos',
+        name: 'Projectos',
         url: '/#selected-projects'
     }
 ];
@@ -678,7 +678,7 @@ const Navbar = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-primary font-bold tracking-widest text-sm uppercase mb-4 opacity-70 md:text-right",
-                                                    children: "Contato"
+                                                    children: "Contacto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Navbar.tsx",
                                                     lineNumber: 157,
