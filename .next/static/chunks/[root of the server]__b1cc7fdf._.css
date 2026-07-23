@@ -1170,6 +1170,11 @@ body {
   height: 1.5rem;
 }
 
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .h-0\.5 {
   height: .125rem;
 }
@@ -2652,6 +2657,14 @@ body {
     top: 2rem;
   }
 
+  .md\:right-28 {
+    right: 7rem;
+  }
+
+  .md\:right-12 {
+    right: 3rem;
+  }
+
   .md\:order-none {
     order: 0;
   }
@@ -2801,6 +2814,10 @@ body {
     font-size: 80px;
   }
 
+  .md\:text-\[64px\] {
+    font-size: 64px;
+  }
+
   .md\:hover\:\!opacity-100:hover {
     opacity: 1 !important;
   }
@@ -2823,6 +2840,10 @@ body {
 @media (width >= 1024px) {
   .lg\:right-28 {
     right: 7rem;
+  }
+
+  .lg\:right-36 {
+    right: 9rem;
   }
 
   .lg\:size-16 {
@@ -2890,6 +2911,10 @@ body {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-\[68px\] {
+    font-size: 68px;
   }
 }
 

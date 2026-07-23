@@ -42,7 +42,7 @@ const Banner = () => {
                 ref={containerRef}
             >
                 <div className="w-full max-w-[544px] flex flex-col justify-center items-start">
-                    <h1 className="banner-title slide-up-and-fade leading-[0.95] text-4xl sm:text-5xl md:text-[80px] font-anton">
+                    <h1 className="banner-title slide-up-and-fade leading-[0.95] text-4xl sm:text-5xl md:text-[64px] lg:text-[68px] font-anton">
                         <span className="text-primary">DESENVOLVEDOR DE SOFTWARE</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-4 sm:mt-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
@@ -72,7 +72,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="w-full md:absolute md:top-8 md:right-24 lg:right-28 grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right z-20">
+                <div className="w-full md:absolute md:top-8 md:right-28 lg:right-36 grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right z-20">
                     {/* Profile image with decorative frame (larger, top-right) */}
                     <div className="group order-first hidden md:order-none md:mb-0 md:mr-0 md:ml-0 md:flex md:justify-end">
                         <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem]">

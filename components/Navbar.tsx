@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="sticky top-0 z-[70]">
                 <button
                     className={cn(
-                        'group size-12 absolute top-5 right-5 md:right-10 z-[80]',
+                        'group size-10 absolute top-5 right-5 md:right-12 z-[80]',
                     )}
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
