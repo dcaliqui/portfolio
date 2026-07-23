@@ -5,6 +5,7 @@ import { GENERAL_INFO } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Image from 'next/image';
 import React from 'react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -71,7 +72,33 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="w-full md:absolute md:bottom-[10%] md:right-[4%] grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right">
+                <div className="w-full md:absolute md:top-8 md:right-24 lg:right-28 grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right z-20">
+                    {/* Profile image with decorative frame (larger, top-right) */}
+                    <div className="group order-first hidden md:order-none md:mb-0 md:mr-0 md:ml-0 md:flex md:justify-end">
+                        <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem]">
+                            <div className="h-full w-full overflow-hidden rounded-lg bg-card shadow-2xl">
+                                <Image
+                                    src="/projects/images/minhafoto.jpeg"
+                                    alt="Foto de Damásio Caliqui"
+                                    width={480}
+                                    height={480}
+                                    className="h-full w-full object-cover scale-100 grayscale contrast-90 brightness-90 saturate-0 transition-[filter,transform] duration-1000 ease-in-out group-hover:scale-105 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:saturate-100"
+                                />
+                            </div>
+
+                            {/* Top-left L-shaped accent */}
+                            <div className="absolute -top-2 -left-2 pointer-events-none">
+                                <div className="w-px h-12 bg-primary shadow-[0_0_12px_hsl(var(--primary))]"></div>
+                                <div className="w-12 h-px bg-primary -mt-px shadow-[0_0_12px_hsl(var(--primary))]"></div>
+                            </div>
+
+                            {/* Bottom-right L-shaped accent */}
+                            <div className="absolute -bottom-2 -right-2 pointer-events-none">
+                                <div className="w-px h-12 -translate-y-12 bg-primary ml-auto shadow-[0_0_12px_hsl(var(--primary))]"></div>
+                                <div className="w-12 h-px -mt-12 ml-auto bg-primary shadow-[0_0_12px_hsl(var(--primary))]"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             4+

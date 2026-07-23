@@ -446,8 +446,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@gsap/react/src/index.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/gsap/ScrollTrigger.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -485,7 +487,7 @@ const Banner = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ArrowAnimation$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/_components/Banner.tsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -502,12 +504,12 @@ const Banner = ()=>{
                                     children: "DESENVOLVEDOR DE SOFTWARE"
                                 }, void 0, false, {
                                     fileName: "[project]/app/_components/Banner.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 44,
+                                lineNumber: 45,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -520,14 +522,14 @@ const Banner = ()=>{
                                         children: "Damásio Caliqui"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 50,
                                         columnNumber: 25
                                     }, this),
                                     ". Sou estudante na Escola 42 Luanda e exerço a atividade de programador web e de software, encontrando-me apto a desenvolver soluções impactantes e escaláveis."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -540,7 +542,7 @@ const Banner = ()=>{
                                 children: "Contactar"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,7 +552,7 @@ const Banner = ()=>{
                                         className: "size-3 rounded-full bg-white"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 68,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -558,24 +560,104 @@ const Banner = ()=>{
                                         children: "Disponível para novas oportunidades profissionais"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 66,
+                                lineNumber: 67,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/Banner.tsx",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full md:absolute md:bottom-[10%] md:right-[4%] grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right",
+                        className: "w-full md:absolute md:top-8 md:right-24 lg:right-28 grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right z-20",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "group order-first hidden md:order-none md:mb-0 md:mr-0 md:ml-0 md:flex md:justify-end",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative w-64 h-64 sm:w-72 sm:h-72 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem]",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "h-full w-full overflow-hidden rounded-lg bg-card shadow-2xl",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/projects/images/minhafoto.jpeg",
+                                                alt: "Foto de Damásio Caliqui",
+                                                width: 480,
+                                                height: 480,
+                                                className: "h-full w-full object-cover scale-100 grayscale contrast-90 brightness-90 saturate-0 transition-[filter,transform] duration-1000 ease-in-out group-hover:scale-105 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:saturate-100"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/_components/Banner.tsx",
+                                                lineNumber: 80,
+                                                columnNumber: 33
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/Banner.tsx",
+                                            lineNumber: 79,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute -top-2 -left-2 pointer-events-none",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-px h-12 bg-primary shadow-[0_0_12px_hsl(var(--primary))]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/_components/Banner.tsx",
+                                                    lineNumber: 91,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-12 h-px bg-primary -mt-px shadow-[0_0_12px_hsl(var(--primary))]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/_components/Banner.tsx",
+                                                    lineNumber: 92,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/_components/Banner.tsx",
+                                            lineNumber: 90,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute -bottom-2 -right-2 pointer-events-none",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-px h-12 -translate-y-12 bg-primary ml-auto shadow-[0_0_12px_hsl(var(--primary))]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/_components/Banner.tsx",
+                                                    lineNumber: 97,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-12 h-px -mt-12 ml-auto bg-primary shadow-[0_0_12px_hsl(var(--primary))]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/_components/Banner.tsx",
+                                                    lineNumber: 98,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/_components/Banner.tsx",
+                                            lineNumber: 96,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/_components/Banner.tsx",
+                                    lineNumber: 78,
+                                    columnNumber: 25
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/_components/Banner.tsx",
+                                lineNumber: 77,
+                                columnNumber: 21
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "slide-up-and-fade",
                                 children: [
@@ -584,7 +666,7 @@ const Banner = ()=>{
                                         children: "4+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 103,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -592,13 +674,13 @@ const Banner = ()=>{
                                         children: "Anos de Experiência"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 106,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 75,
+                                lineNumber: 102,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -609,7 +691,7 @@ const Banner = ()=>{
                                         children: "20+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 109,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -617,13 +699,13 @@ const Banner = ()=>{
                                         children: "Projetos Concluídos"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 112,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 81,
+                                lineNumber: 108,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -634,7 +716,7 @@ const Banner = ()=>{
                                         children: "1200+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 115,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -642,31 +724,31 @@ const Banner = ()=>{
                                         children: "Horas de Prática"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 118,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
-                                lineNumber: 87,
+                                lineNumber: 114,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/Banner.tsx",
-                        lineNumber: 74,
+                        lineNumber: 75,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/_components/Banner.tsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/_components/Banner.tsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 9
     }, this);
 };

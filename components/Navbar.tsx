@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import { MoveUpRight } from 'lucide-react';
+import { MoveUpRight, X } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
@@ -37,10 +37,10 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="sticky top-0 z-[4]">
+            <div className="sticky top-0 z-[70]">
                 <button
                     className={cn(
-                        'group size-12 absolute top-5 right-5 md:right-10 z-[2]',
+                        'group size-12 absolute top-5 right-5 md:right-10 z-[80]',
                     )}
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
@@ -67,7 +67,7 @@ const Navbar = () => {
 
             <div
                 className={cn(
-                    'overlay fixed inset-0 z-[2] bg-black/70 transition-all duration-150',
+                    'overlay fixed inset-0 z-[50] bg-black/70 transition-all duration-150',
                     {
                         'opacity-0 invisible pointer-events-none': !isMenuOpen,
                     },
@@ -77,12 +77,23 @@ const Navbar = () => {
 
             <div
                 className={cn(
-                    'fixed inset-0 w-full h-[100dvh] transform translate-y-[-100%] transition-transform duration-700 ease-in-out z-[3] overflow-y-auto',
+                    'fixed inset-0 w-full h-[100dvh] transform translate-y-[-100%] transition-transform duration-700 ease-in-out z-[60] overflow-y-auto',
                     'flex flex-col justify-between py-8 px-6 sm:px-10 md:px-24',
                     'backdrop-blur-2xl bg-black/95',
                     { 'translate-y-0': isMenuOpen },
                 )}
             >
+                {isMenuOpen && (
+                    <button
+                        type="button"
+                        aria-label="Fechar menu"
+                        onClick={() => setIsMenuOpen(false)}
+                        className="fixed top-5 right-5 md:right-10 z-[70] flex size-12 items-center justify-center rounded-full border border-white/30 bg-black/80 text-white shadow-lg transition-colors hover:bg-white hover:text-black"
+                    >
+                        <X size={26} />
+                    </button>
+                )}
+
                 <div className="flex-1 flex flex-col justify-center max-w-7xl mx-auto w-full relative py-6">
                     <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start md:items-center">
                         <div className="space-y-6 lg:space-y-8">
