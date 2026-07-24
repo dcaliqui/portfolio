@@ -72,9 +72,9 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="w-full md:absolute md:top-8 md:right-28 lg:right-36 grid grid-cols-1 sm:grid-cols-3 md:flex md:flex-col gap-4 md:gap-8 text-left md:text-right z-20">
+                <div className="w-full md:w-[26rem] lg:w-[30rem] md:absolute md:top-8 md:right-28 lg:right-36 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 text-left md:text-right z-20">
                     {/* Profile image with decorative frame (larger, top-right) */}
-                    <div className="group order-first hidden md:order-none md:mb-0 md:mr-0 md:ml-0 md:flex md:justify-end">
+                    <div className="group order-first hidden md:col-span-3 md:mb-0 md:mr-0 md:ml-0 md:flex md:justify-end">
                         <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem]">
                             <div className="h-full w-full overflow-hidden rounded-lg bg-card shadow-2xl">
                                 <Image

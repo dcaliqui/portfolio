@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import { MoveUpRight, X } from 'lucide-react';
+import { MoveUpRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
@@ -39,6 +39,8 @@ const Navbar = () => {
         <>
             <div className="sticky top-0 z-[70]">
                 <button
+                    type="button"
+                    aria-label={isMenuOpen ? 'Fechar menu' : 'Abrir menu'}
                     className={cn(
                         'group size-10 absolute top-5 right-5 md:right-12 z-[80]',
                     )}
@@ -83,17 +85,6 @@ const Navbar = () => {
                     { 'translate-y-0': isMenuOpen },
                 )}
             >
-                {isMenuOpen && (
-                    <button
-                        type="button"
-                        aria-label="Fechar menu"
-                        onClick={() => setIsMenuOpen(false)}
-                        className="fixed top-5 right-5 md:right-10 z-[70] flex size-12 items-center justify-center rounded-full border border-white/30 bg-black/80 text-white shadow-lg transition-colors hover:bg-white hover:text-black"
-                    >
-                        <X size={26} />
-                    </button>
-                )}
-
                 <div className="flex-1 flex flex-col justify-center max-w-7xl mx-auto w-full relative py-6">
                     <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start md:items-center">
                         <div className="space-y-6 lg:space-y-8">
